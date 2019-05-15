@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/specs.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<h2>Behavior Driven Development Process (BDD)</h2>
+<p>Below are the first two "plain English" specs:</p>
+<table style="width:100%">
+  <tr id="specs">
+    <th>Behaviour</th>
+    <th>Input Example</th>
+    <th>Output Example</th>
+  </tr>
+  <tr>
+    <td class="behaviour">The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.</td>
+    <td>3</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td class="behaviour">The program adds "ay" to single-letter words beginning with a vowel.</td>
+    <td>i</td>
+    <td>iay</td>
+  </tr>
+</table>
+<h3>Instructions</h3>
+ <ol>
+   <li>Before writing any code, make a list of specs detailing each behavior your program will have. Start with the simplest possible behavior, and slowly move up in complexity. To get you started, the first two specs are provided below.</li>
+   <li><span id="important">Have at least two other pairs check your specs before you begin coding.</span> Ensure that each possible behavior is represented by a spec, and that they are ordered from simplest to most complex.</li>
+   <li>Place your specs (and their example inputs and outputs) in your project's README.</li>
+   <li>Create a basic user interface that allows your application to accept user input, and display output. This will allow us to manually test each spec.</li>
+   <li>Slowly add business logic. Begin by focusing on the behavior outlined in your first, most simple spec. Implement the least amount of logic necessary to create this behavior.</li>
+   <li>Manually test this behaviour by inputting the example input described by the spec into your application, and confirm you receive the correct output.</li>
+   <li>Once behavior outlined by the first spec is successfully implemented, repeat steps 5 - 7 for each subsequent spec. Do not move onto the next spec until the previous one passes.</li>
+ </ol>
+</body>
