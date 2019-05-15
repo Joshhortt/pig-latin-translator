@@ -1,0 +1,33 @@
+body  {
+  font-family: verdana;
+  margin: 40px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th  {
+  background-color: lightgray;
+}
+
+h4  {
+  color: rgb(0, 105, 217);
+}
+
+h3  {
+  margin-top: 20px;
+}
+
+#specs  {
+  font-size: 1.3rem;
+}
+
+#important  {
+  font-weight: bold;
+}
+
+.behaviour  {
+  text-align: left;
+}
