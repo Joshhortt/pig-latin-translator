@@ -1,4 +1,4 @@
-# LEAP YEAR DETECTOR
+# PIG LATIN TRANSLATOR
 
 _A simple form where users can enter a sentence in English text than it translates into Pig latin words_.<br/>
 _version: 15/05/2019_<br/>
@@ -15,10 +15,9 @@ _and many more functions and methods in JavaScript_.
 
 _Write a Pig Latin translator or should we say an "igPay atinLay anslatorTray"? Read all instructions carefully before beginning_.<br/>
 _**How pig latin works (rules)**_:<br/>
-_First, here are the rules of Pig Latin_:<br/>
 _-For words beginning with a vowel, add "way" to the end_.<br/>
 _-For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay"_.<br/>
-_-If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first_!<br/>
+_-If the first consonants include "qu", move the "u" along with the "q"_!<br/>
 _-For words beginning with "y", treat "y" as a consonant_.
 
 ## Specifications Outline:
